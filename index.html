@@ -2,12 +2,46 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Effective JavaScript: Ladybug</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700" rel="stylesheet">
 </head>
 
 <body>
+    <!--Background gif-->
+    <div class="background"></div>
+
+    <!--Instructions-->
+    <h1>Beware the bugs!</h1>
+
+    <p>Use the arrow keys to move all the ladybugs safely to the water.</p>
+
+    <p>Move as many ladybugs to saftey before time runs out.</p>
+
+    <div class="score-board">
+        <p class="score">Saved: 0</p>
+        <p class="time">Time: 0.0</p>
+    </div>
+
+    <!-- Modal - source https://www.w3schools.com/howto/howto_css_modals.asp-->
+    <div class="modal">
+
+        <div class="modal-content">
+            <button type="button" class="close">&times;</button>
+            <h1 class="stack">Yay!</h1>
+            <div class="score-board">
+                <p class="score">Score: 0</p>
+                <p class="time">Time: 0.0</p>
+            </div>
+
+            <button type="button" class="button">Play Again!</button>
+        </div>
+
+    </div>
+
     <script src="js/resources.js"></script>
     <script src="js/class.js"></script>
     <script src="js/app.js"></script>
