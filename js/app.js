@@ -33,3 +33,10 @@ document.addEventListener("keyup", function(e) {
 
   player.handleInput(allowedKeys[e.keyCode]);
 });
+
+//Show and hide instructions when clicked
+document
+  .getElementById("instructions-button")
+  .addEventListener("click", function(e) {
+    document.getElementById("instructions-toggle").classList.toggle("open");
+  });
