@@ -37,7 +37,7 @@ The Udacity [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) h
 
 I refrenced this [Udacity HTML5 Canvas Course](https://www.udacity.com/course/html5-canvas--ud292) for adding the images (Player and Enemy) and to change the player character after every turn.
 
-I also recieved a lot of pointers from [FEND Arcade Game Project - Getting Started](https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000). I was given a lot of code that I used within the game and it helped me get started on this project.
+I also received a lot of pointers from [FEND Arcade Game Project - Getting Started](https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000). I was given a lot of code that I used within the game and it helped me get started on this project.
 
 I also received help on several occasions from my fantastic peers who are taking
 this Udacity Nano-Degree alongside me.
